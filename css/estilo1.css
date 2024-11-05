@@ -1,0 +1,221 @@
+﻿*{
+	margin: 0;
+	 box-sizing: border-box;
+}
+
+.geral{
+	width: 100%;
+	height: 100%;
+}
+
+.home{
+	height: 1300px;
+	width: 100%;
+}
+
+.nav-home{
+	height: 1300px;
+	width: 20%;
+	float: left;
+	position: absolute;
+}
+
+.conteudo-home {
+	margin-left: 20%;
+	height: 1300px;
+	width: 80%;
+	background-color: #FFFFFF;
+	position: absolute;
+}
+
+.receitas {
+    height: 4200px;
+    width: 100%;
+}
+
+.nav-receitas {
+	height: 4200px;
+	width: 20%;
+	float: left;
+	position: absolute;
+}
+
+.conteudo-receitas {
+    margin-left: 20%;
+    height: 4200px;
+    width: 80%;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+
+.exercicios {
+    height: 1000px;
+    width: 100%;
+}
+
+.nav-exercicios {
+	height: 1000px;
+	width: 20%;
+	float: left;
+	position: absolute;
+}
+
+.conteudo-exercicios {
+    margin-left: 20%;
+    height: 1000px;
+    width: 80%;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+
+.enviar {
+    height: 500px;
+    width: 100%;
+}
+
+.nav-enviar {
+	height: 500px;
+	width: 20%;
+	float: left;
+	position: absolute;
+}
+
+.conteudo-enviar {
+    margin-left: 20%;
+    height: 500px;
+    width: 80%;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+
+.for {
+    margin-top: 50px;
+}
+
+.contato {
+    height: 250px;
+    width: 100%;
+}
+
+.nav-contato {
+	height: 250px;
+	width: 20%;
+	float: left;
+	position: absolute;
+}
+
+.conteudo-contato {
+    margin-left: 20%;
+    height: 250px;
+    width: 80%;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+
+body{
+	background-image: url("../img/background-amarelo.png");
+	background-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: DimGray;
+}
+
+#button {
+	border:1px solid #25692A;
+	border-radius:4px;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:13px;
+	padding:6px 10px;
+	text-decoration:none;
+}
+
+#gaba{
+	border: 2px solid red;
+}
+
+header{
+	text-align: center;
+	width: 100%;
+	height: 200px;
+}
+
+header img{
+	width: 70%;
+	height: 85%;
+}
+
+nav ul{
+	margin: 0;
+	padding-left: 0;
+	padding-top: 1px;
+	height: 100%;
+	width: 100%;
+	list-style-type: none;
+	background-color: #FF8C00;
+}
+
+
+nav ul li a{
+	display: block;
+	padding: 8px 16px;
+	color: #000000;
+	text-decoration: none;
+}
+
+nav ul li a.ativo{
+	background-color: #FFFF00;
+}
+
+nav ul a:hover:not(.ativo){
+	color: #ffffff;
+	background-color: #8B0000;
+}
+
+footer{
+	background-color: #000000;
+	color: #FFFFFF;
+	padding-top: 0;
+	width: 100%;
+	height: 230px;
+	position: absolute;
+	align-items: center;
+	text-align: center;
+	line-height: 100px;
+}
+
+footer img{
+	width: 60px;
+	height: 60px;
+}
+
+.rodape{
+	padding-top: 20px;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 900px){
+	nav ul{
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	nav ul li a{
+		float: left;
+		padding: 15px;
+	}
+	section{
+		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 400px){
+	nav ul li a{
+		text-align: center;
+		float: none;
+	}
+}

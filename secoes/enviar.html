@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>
+		<title>Receita</title>
+		<link rel="shortcut icon" href="../img/favicon.ico" >
+    <link rel="icon" type="image/gif" href="../img/animated_favicon1.gif" >
+		<link rel="stylesheet" type="text/css" href="../css/estilo2.css"/>
+	</head>
+
+	<body>
+		<div class="geral">
+			<header>
+				<img src="../img/banner.png"/>
+			</header>
+
+			<section class="enviar">
+				<nav class="nav-enviar">
+					<ul>
+						<li id="a"><a href="../index.html">Home</a></li>
+						<li id="b"><a href="receitas.html">Receitas</a></li>
+						<li id="c"><a href="exercicios.html">Exercícios</a></li>
+						<li id="d"><a class="ativo" href="#">Envie sua receita</a></li>
+						<li id="e"><a href="contato.html">Contato</a></li>
+					</ul>
+			 	</nav>
+
+				<article class="conteudo-enviar">
+					<div class="conteudo">
+						<div class="for">
+						<p>
+							<form>
+								<table>
+									<tr>
+										<th align="right" width="30%" height="30%"> <h3>Nome:</h3> </th>
+										<td align="center"> <input type="text" name="txtUsuario" size="100" required autofocus/> </td>
+									</tr>
+									<tr>
+										<th align="right"> <h3> Qual o seu sexo?: </h3> </th>
+										<td>
+											<select name="Sexo">
+											<option values="M"> Masculino </option>
+											<option values="F"> Feminino </option>
+										</td>
+									</tr>
+									<tr>
+										<th align="right"><h3> Email: </h3></th>
+										<td align="center"><input type="email" name="txtEmail" size="100" required/> </td>
+									</tr>
+									<tr>
+										<th align="right"> Número de telefone: </th>
+										<td align="center"><input type="tel" name="txtNumTel" pattern="[0-9]{11}" size="100" required/> </td>
+									</tr>
+									<tr>
+									<th align="right"> <h3> Ingredientes da receita: </h3/> </th>
+									<td>
+										<textarea rows="4" cols="50">Digite aqui os ingredientes</textarea>
+									</td>
+									</tr>
+
+									<tr>
+									<th align="right"> <h3> Modo de preparo da receita: </h3/> </th>
+									<td>
+										<textarea rows="4" cols="50" required>Digite aqui o modo de preparo</textarea>
+									</td>
+									</tr>
+
+									<tr>
+									<th align="right"> <h3> Dica da receita: </h3/> </th>
+									<td>
+										<textarea rows="4" cols="50">Digite aqui as dicas
+										</textarea>
+									</td>
+									</tr>
+
+									<tr>
+									<td>
+									 </td>
+									 <td align="center">
+										<input type="submit" values="Entrar"  id="button"/>
+										<input type="reset" values="Limpar"  id="button"/>
+									 </td>
+								</tr>
+								</table>
+							<form>
+						</p>
+					</div>
+					</div>
+				</article>
+			</section>
+
+			<footer>
+				<div class="rodape">
+					<a href="https://www.facebook.com/profile.php?id=100003157780998"><img src="../img/facebook.png"></a>
+					<a href="https://twitter.com/IsadoraBom3"><img src="../img/twiter.png"></a>
+					<a href="https://www.instagram.com/isa.bom/?hl=pt-br"><img src="../img/instagram.png"></a>
+					<hr/>
+					By Gustavo Cruz Pinheiro e Isadora Bom dos Santos
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
